@@ -104,8 +104,19 @@ $xhtml .= '</ul>';
     <div class="user__wrapper">
       <img class="user__image" src="http://127.0.0.1:5500/img/user/avatar.png" alt="">
       <div class="user__block">
-        <p class="user__name">Hi, Mark</p>
-        <p class="user__balance">Balance: $1000</p>
+        <p class="user__name">Hi, <?php echo current_logged_user()->first_name; ?>!</p>
+        <p class="user__balance">
+          Balance:
+          <?php
+          $balance = current_logged_user()->balance;
+          if (empty($balance) || $balance == 0) {
+            $balance = 0.00;
+          } else {
+            $balance = currency_format($balance);
+          }
+          echo get_option('currency_symbol', "$") . $balance;
+          ?>
+        </p>
         <a class="user__logout" href="<?php echo cn('auth/logout'); ?>">Log out</a>
       </div>
     </div>

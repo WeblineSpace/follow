@@ -5,7 +5,7 @@
 <section class="add-funds m-t-30">   
   <div class="container-fluid">
     <div class="row justify-content-md-center" id="result_ajaxSearch">
-      <div class="col-md-8">
+      <div class="col-12">
         <div class="card">
           <div class="card-header d-flex align-items-center">
             <div class="tabs-list">

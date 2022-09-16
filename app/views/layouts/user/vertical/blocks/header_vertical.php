@@ -13,13 +13,13 @@
 
     <ul class="section-header__list pb-lg-0 pt-lg-0 pb-3 pt-3">
       <li class="section-header__list--item">
-        <a href="/order" class="section-header__list--link _accent">
+        <a href="/new_order" class="section-header__list--link _accent">
           <span class="section-header__list--icon _icon-section-new-order"></span>
           New order
         </a>
       </li>
       <li class="section-header__list--item">
-        <a href="#" class="section-header__list--link">
+        <a href="/order" class="section-header__list--link">
           <span class="section-header__list--icon _icon-orders"></span>
           All orders
         </a>
@@ -92,7 +92,7 @@
           </a>
         </li>
         <li class="header__item">
-          <a href="#" class="section-header__message--link section-header__min-link _has-effect" title="Messages">
+          <a href="/tickets" class="section-header__message--link section-header__min-link _has-effect" title="Messages">
             <span class="section-header__message--icon section-header__min-icon _icon-message"></span>
           </a>
         </li>

@@ -23039,7 +23039,7 @@ input[type="checkbox"]:checked::after {
 }
 
 td[class="table_price w-5p"] {
-  padding-left: 28px !important;
+  padding-left: 35px !important;
 }
 
 .card-header {
@@ -23062,10 +23062,6 @@ td[class="table_price w-5p"] {
 
 .services__projects--icon {
   color: #cb4bd5;
-}
-
-.card-options-collapse {
-  display: none !important;
 }
 
 .table_id {
@@ -23319,18 +23315,6 @@ a:hover {
 
 ._icon-theme-to-dark::before {
   content: "";
-}
-
-._has-effect::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 1px solid white;
-  background-color: #FF4C9C;
 }
 
 .header__list {
